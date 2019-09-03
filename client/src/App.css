@@ -1,0 +1,27 @@
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+/* When we type something and it shows up */
+/* start state */
+.fade-enter {
+  opacity: 0.01;
+}
+
+/* end state */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+
+/* start state */
+.fade-exit {
+  opacity: 1;
+}
+
+/* end state */
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-out;
+}
